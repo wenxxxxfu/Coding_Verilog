@@ -1,0 +1,89 @@
+{
+    "CompileStatus": "Successful",
+    "MlibObjs": {},
+    "PrevCompiledModules": {},
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 89049
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "NameTable": {
+        "synch_fifo_tb": [
+            "synch_fifo_tb",
+            "Yc7nv",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "...MASTER...",
+        "synch_fifo_tb",
+        "synch_fifo_tb"
+    ],
+    "Misc": {
+        "cwd": "/home/wen/Desktop/workspace/coding/verilog_module/FIFO",
+        "csrc": "csrc",
+        "archive_dir": "archive.0",
+        "csrc_abs": "/home/wen/Desktop/workspace/coding/verilog_module/FIFO/csrc",
+        "default_output_dir": "csrc",
+        "daidir": "simv.daidir",
+        "daidir_abs": "/home/wen/Desktop/workspace/coding/verilog_module/FIFO/simv.daidir"
+    },
+    "CompileStrategy": "fullobj",
+    "stat": {
+        "nMops": 1532,
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.0315,
+            "ru_stime_sec": 0.0378,
+            "ru_maxrss_kb": 83388,
+            "ru_nvcsw": 127,
+            "ru_majflt": 94,
+            "ru_minflt": 4889,
+            "ru_nivcsw": 4
+        },
+        "Frontend(%)": 84.459459459459453,
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.0017730000000000001,
+            "ru_stime_sec": 0.0062729999999999999,
+            "ru_maxrss_kb": 81340,
+            "ru_nvcsw": 4,
+            "ru_majflt": 0,
+            "ru_minflt": 986,
+            "ru_nivcsw": 1
+        },
+        "nQuads": 600,
+        "totalObjSize": 126473,
+        "ru_self_end": {
+            "ru_utime_sec": 0.037296000000000003,
+            "ru_stime_sec": 0.053872000000000003,
+            "ru_maxrss_kb": 92736,
+            "ru_nvcsw": 162,
+            "ru_majflt": 128,
+            "ru_minflt": 6505,
+            "ru_nivcsw": 4
+        },
+        "ru_childs_end": {
+            "ru_utime_sec": 0.0017730000000000001,
+            "ru_stime_sec": 0.0062729999999999999,
+            "ru_maxrss_kb": 81340,
+            "ru_nvcsw": 4,
+            "ru_majflt": 0,
+            "ru_minflt": 986,
+            "ru_nivcsw": 1
+        },
+        "outputSizePerQuad": 210.0,
+        "CodeGen(%)": 15.540540540540546
+    },
+    "CurCompileUdps": {},
+    "PEModules": [],
+    "CompileProcesses": [
+        "cgproc.16966.json"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "csrc"
+        },
+        "Yc7nv_d": {
+            "icPath": "csrc"
+        }
+    },
+    "Modules": {
+        "...MASTER...": {},
+        "synch_fifo_tb": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        }
+    },
+    "CompUnits": {},
+    "ObjArchives": []
+}

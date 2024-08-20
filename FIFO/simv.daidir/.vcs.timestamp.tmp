@@ -1,0 +1,108 @@
+0 
+32
++itf+/usr/synopsys/vcs/linux64/lib/vcsdp.tab
++memcbk
++v2k
++vcsd
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc-4.8
+-Mcfl= -pipe -fPIC -O -I/usr/synopsys/vcs/include
+-Mcplusplus=g++-4.8
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -Wl,--no-as-needed -rdynamic
+-Mobjects= /usr/synopsys/vcs/linux64/lib/libvirsim.so /usr/synopsys/vcs/linux64/lib/liberrorinf.so /usr/synopsys/vcs/linux64/lib/libsnpsmalloc.so
+-Mout=simv
+-Msaverestoreobj=/usr/synopsys/vcs/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/usr/synopsys/vcs/include
+-Xpiyushb1=0x80
+-debug_access+all+dmptf+bc
+-debug_region=cell+lib
+-full64
+-gen_obj
+-l
+-picarchive
+/usr/synopsys/vcs/linux64/bin/vcs1
+fifo.v
+readme.log
+testbench.v
+63
+sysc_uni_pwd=/home/wen/Desktop/workspace/coding/verilog_module/FIFO
+XMODIFIERS=@im=fcitx
+XDG_SESSION_TYPE=wayland
+XDG_SESSION_DESKTOP=ubuntu
+XDG_SESSION_CLASS=user
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_MENU_PREFIX=gnome-
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+XDG_CURRENT_DESKTOP=ubuntu:GNOME
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+XAUTHORITY=/run/user/1000/.mutter-Xwaylandauth.LEWWS2
+WAYLAND_DISPLAY=wayland-0
+VTE_VERSION=6800
+VMR_MODE_FLAG=64
+VERDI_HOME=/usr/synopsys/verdi
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=readme.log
+VCS_HOME=/usr/synopsys/vcs
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=linux64
+USERNAME=wen
+UNAME=/bin/uname
+TOOL_HOME=/usr/synopsys/vcs/linux64
+SYSTEMD_EXEC_PID=1703
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AGENT_LAUNCHER=gnome-keyring
+SESSION_MANAGER=local/wen-virtual-machine:@/tmp/.ICE-unix/1665,unix/wen-virtual-machine:/tmp/.ICE-unix/1665
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_IM_MODULE=fcitx
+QT_ACCESSIBILITY=1
+OVA_UUM=0
+NOVAS_HOME=/usr/synopsys/verdi
+NEMU_HOME=/home/wen/Desktop/workspace/ysyx-workbench/nemu
+LESSOPEN=| /usr/bin/lesspipe %s
+LESSCLOSE=/usr/bin/lesspipe %s %s
+LC_TIME=zh_CN.UTF-8
+LC_TELEPHONE=zh_CN.UTF-8
+LC_PAPER=zh_CN.UTF-8
+LC_NUMERIC=zh_CN.UTF-8
+LC_NAME=zh_CN.UTF-8
+LC_MONETARY=zh_CN.UTF-8
+LC_MEASUREMENT=zh_CN.UTF-8
+LC_IDENTIFICATION=zh_CN.UTF-8
+LC_ALL=C
+LC_ADDRESS=zh_CN.UTF-8
+IM_CONFIG_PHASE=1
+GTK_MODULES=gail:atk-bridge
+GTK_IM_MODULE=fcitx
+GNOME_TERMINAL_SERVICE=:1.186
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/7d289d8c_a8a7_49fb_8310_ee1c7fcb4c21
+GNOME_SHELL_SESSION_MODE=ubuntu
+GNOME_SETUP_DISPLAY=:1
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GDMSESSION=ubuntu
+DESKTOP_SESSION=ubuntu
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+COLORTERM=truecolor
+CLUTTER_IM_MODULE=fcitx
+AM_HOME=/home/wen/Desktop/workspace/ysyx-workbench/abstract-machine
+0
+3
+1724146540 testbench.v
+1724147336 fifo.v
+1464145466 /usr/synopsys/vcs/linux64/lib/vcsdp.tab
+4
+0 
+1464147802 /usr/synopsys/vcs/linux64/lib/libvirsim.so
+1464147272 /usr/synopsys/vcs/linux64/lib/liberrorinf.so
+1464147248 /usr/synopsys/vcs/linux64/lib/libsnpsmalloc.so

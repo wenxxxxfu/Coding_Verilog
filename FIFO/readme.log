@@ -1,0 +1,22 @@
+Command: vcs -full64 -cpp g++-4.8 -cc gcc-4.8 -LDFLAGS -Wl,--no-as-needed fifo.v \
+testbench.v -l readme.log +v2k -debug_all
+*** Using c compiler gcc-4.8 instead of cc ...
+                         Chronologic VCS (TM)
+         Version L-2016.06_Full64 -- Tue Aug 20 17:51:20 2024
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'fifo.v'
+Parsing design file 'testbench.v'
+Top Level Modules:
+       synch_fifo_tb
+TimeScale is 1 ns / 1 ps
+Starting vcs inline pass...
+1 unique modules to generate
+1 module and 0 UDP read. 
+	However, due to incremental compilation, no re-compilation is necessary.
+All of 0 modules done
