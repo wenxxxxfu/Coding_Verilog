@@ -88,4 +88,11 @@ module synch_fifo_tb();
         $finish;
     end
 
+`ifdef FSDB
+initial begin
+	$fsdbDumpfile("testbench.fsdb");
+	$fsdbDumpvars;
+end
+`endif
+
 endmodule
