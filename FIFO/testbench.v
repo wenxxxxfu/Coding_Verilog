@@ -49,15 +49,15 @@ initial begin
     // Wait 100 ns for global reset to finish
     #50;
     rst_n = 1;
-
+    
     // Fill the FIFO and check for full condition
-    repeat (FIFO_DEPTH+1) begin
+    repeat (FIFO_DEPTH) begin
         @(posedge clk);
         fifo_wren = 1;
         fifo_wrdata = $random;
     end
 
-    #50;
+    @(posedge clk);
     fifo_wren = 0;
 
     // Check if FIFO is full
@@ -69,6 +69,7 @@ initial begin
         @(posedge clk);
         fifo_rden = 1;
     end
+@(posedge clk);
     fifo_rden = 0;
 
     // Write back to half full FIFO
@@ -77,6 +78,7 @@ initial begin
         fifo_wren = 1;
         fifo_wrdata = $random;
     end
+   @(posedge clk);
     fifo_wren = 0;
 
     // Completely empty the FIFO
@@ -84,7 +86,7 @@ initial begin
         @(posedge clk);
         fifo_rden = 1;
     end
-    #100;
+@(posedge clk);
     fifo_rden = 0;
 
     // Check if FIFO is empty

@@ -23,7 +23,7 @@ reg [FIFO_PTR-1:0] wr_ptr, rd_ptr;              // Write and read pointers
 reg [FIFO_PTR:0] count;                         // Count of items in FIFO
 
 assign fifo_data_avail = count;
-assign fifo_full = (count == FIFO_DEPTH);       // If full, keep 1
+assign fifo_full = (count == FIFO_DEPTH - 1);       // If full, keep 1
 assign fifo_empty = (count == 0);               // If empty, keep 1
 assign fifo_room_avail = FIFO_DEPTH - count;
 
